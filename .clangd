@@ -1,0 +1,10 @@
+CompileFlags:
+  Remove:
+    - -forward-unknown-to-host-compiler
+    - --generate-code=arch=compute_61,code=[compute_61,sm_61]
+    - -rdc=true
+    - -ccbin=g++-14
+
+  Add:
+    - --cuda-path=/usr/local/cuda
+    - --cuda-gpu-arch=sm_61

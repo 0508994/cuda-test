@@ -1,0 +1,29 @@
+{
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        {
+            "column": 120
+        },
+    ],
+
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+
+    "clangd.path": "/usr/bin/clangd",
+    "clangd.arguments": [
+        "--compile-commands-dir=build",
+        "--header-insertion=never",
+        "--query-driver=/usr/bin/c++,/usr/local/cuda/bin/nvcc"
+    ],
+    "python.formatting.provider": "black",
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "comment": {
+                "foreground": "#AABBCC"
+            }
+        }
+    }
+
+}
